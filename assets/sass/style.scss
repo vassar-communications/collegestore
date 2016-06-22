@@ -1,0 +1,843 @@
+@import url("http://cmspreview.vassar.edu/collegestore/web/assets/css/style-local.css");
+
+/* ======================== */
+/* Page Background category */
+/* ======================== */
+
+body {
+	/* Page Background Color: */
+	background-color: #FFFFFF;
+	/* Background Image: */
+	background-image: url();
+	/* Repeat: */
+	background-repeat: repeat;
+	/* Attachment: */
+	background-attachment: scroll;
+
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+        margin: 0px;
+        overflow-y: scroll;
+}
+
+
+/* =================== */
+/* Hyperlinks category */
+/* =================== */
+
+/* Hyperlink – Default */
+A:link {
+	/* Font: */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* Size: */
+	font-size: 10px;
+	/* Style: */
+	font-style: normal;
+	/* Weight: */
+	font-weight: normal;
+	/* Color: */
+	color: #000099;
+}
+
+/* Hyperlink – Visited */
+A:visited {
+	/* Font: */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* Size: */
+	font-size: 10px;
+	/* Style: */
+	font-style: normal;
+	/* Weight: */
+	font-weight: normal;
+	/* Color: */
+	color: #000099;
+}
+
+/* Hyperlink – Hover */
+A:hover {
+	/* Font: */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* Size: */
+	font-size: 10px;
+	/* Style: */
+	font-style: normal;
+	/* Weight: */
+	font-weight: normal;
+	/* Color: */
+	color: #0000FF;
+}
+
+/* Hyperlink – Active */
+A:active {
+	/* Font: */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* Size: */
+	font-size: 10px;
+	/* Style: */
+	font-style: normal;
+	/* Weight: */
+	font-weight: normal;
+	/* Color: */
+	color: #FFCC00;
+}
+
+
+/* ============================ */
+/* Headers and Footers category */
+/* ============================ */
+
+.LocationBar {
+	/* Title Bar Background Color: */
+	background-color: transparent;
+	/* Title Bar Font: */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* Title Bar Font Size: */
+	font-size: 20px;
+	/* Title Bar Style: */
+	font-style: normal;
+	/* Title Bar Weight: */
+	font-weight: bold;
+	/* Title Bar Font Color: */
+	color: #007272;
+        border: 0;
+        padding-left: 50px;
+        margin-top: 50px;
+}
+
+.ButtonsBG {
+	/* Table Footer Background Color: */
+	background-color: #EEEEEE;
+
+	vertical-align: middle;
+	text-align: right;
+}
+
+
+/* ========================= */
+/* Adoption Headers category */
+/* ========================= */
+
+.AdoptTitleBG {
+	/* Adoption Title Font Color: */
+	color: #000000;
+	/* Adoption Font: */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* Adoption Title Font Size: */
+	font-size: 12px;
+	/* Adoption Title Font Style: */
+	font-style: normal;
+	/* Adoption Title Background Color: */
+	background-color: #CCCCCC;
+	/* Adoption Title Font Weight: */
+	font-weight: bold;
+
+	padding-left: 8px;
+}
+
+
+/* ========================== */
+/* Menu – Horizontal category */
+/* ========================== */
+
+.horizontal_menu ul.AspNet-Menu li a,
+.horizontal_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a {
+	/* Font: */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* Size: */
+	font-size: 10px;
+	/* Style: */
+	font-style: normal;
+	/* Link Color: */
+	color: #0000FF;
+	/* Weight: */
+	font-weight: bold;
+
+	/* You can adjust the border around horizontal */
+	/* menu items below.                           */
+	border-width: 1px;
+	border-color: #648ABD;
+	border-style: solid;
+
+	padding: 4px;
+}
+
+.horizontal_menu ul.AspNet-Menu li a:link,
+.horizontal_menu ul.AspNet-Menu li a:visited,
+.horizontal_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a:link,
+.horizontal_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a:visited {
+	/* Background Color: */
+	background-color: #7795BD;
+}
+
+.horizontal_menu ul.AspNet-Menu li a:hover,
+.horizontal_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a:hover {
+	/* Hover Background Color : */
+	background-color: #EEEEEE;
+
+	/* Remove comment characters below to */
+	/* change text color on hover.        */
+	/* color: #555555; */
+}
+
+/* You can add an image to indicate the presence */
+/* of submenu items (an arrow, for example).     */
+
+.horizontal_menu ul.AspNet-Menu li a {
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+.horizontal_menu ul.AspNet-Menu li {
+	/* Set the width of each top-level */
+	/* horizontal menu option.         */
+	width: 16em;
+}
+
+.horizontal_menu ul.AspNet-Menu li li {
+	/* Set the width of your submenu items. If you */
+	/* adjust this, also change the LEFT value for */ 
+	/* .horizontal_menu ul.AspNet-Menu li ul li ul */
+	/* to be the same value.                       */
+	width: 16em;
+}
+
+.horizontal_menu ul.AspNet-Menu li ul li ul {
+	/* The LEFT value must match the WIDTH value of */
+	/* the submenu items to prevent an overlap.     */
+	position: absolute;
+	top: 0em;
+	left: 16em;
+}
+
+.horizontal_menu ul.AspNet-Menu ul {
+	/* Adjust the TOP value to prevent submenu items */
+	/* from overlapping their top-level options.     */
+	position: absolute;
+	top: 2.2em;
+	left: 0em;
+}
+
+
+/* DROPDOWN STYLING */
+
+.horizontal_menu ul.AspNet-Menu li li a {
+}
+
+.horizontal_menu ul.AspNet-Menu li li a:hover {
+}
+
+/* Other horizontal menu elements */
+
+.horizontal_menu ul.AspNet-Menu li a:active,
+.horizontal_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a:active {
+}
+
+.horizontal_menu .AspNet-Menu-Horizontal {
+}
+
+.horizontal_menu ul {
+}
+
+.horizontal_menu ul.AspNet-Menu {
+	width: 100%;
+	z-index: 400;
+}
+
+.horizontal_menu ul.AspNet-Menu li span {
+	border-bottom-width: 1px;
+}
+
+.horizontal_menu ul.AspNet-Menu li a img {
+}
+
+.horizontal_menu ul.AspNet-Menu li.AspNet-Menu-Leaf span {
+}
+
+.horizontal_menu ul.AspNet-Menu ul ul {
+	position:absolute;
+}
+
+
+/* ======================== */
+/* Menu – Vertical category */
+/* ======================== */
+
+.vertical_menu ul.AspNet-Menu li a,
+.vertical_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a {
+
+	/* Font: */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* Size: */
+	font-size: 10px;
+	/* Style: */
+	font-style: normal;
+	/* Link Color: */
+	color: #830300;
+	/* Weight: */
+	font-weight: bold;
+
+	/* You can adjust the border around vertical */
+	/* menu items below.                         */
+	border-width: 1px;
+	border-color: #830300;
+	border-style: solid;
+
+	padding: 4px;
+}
+
+.vertical_menu ul.AspNet-Menu li a:link,
+.vertical_menu ul.AspNet-Menu li a:visited,
+.vertical_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a:link,
+.vertical_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a:visited {
+	/* Background Color: */
+	background-color: transparent;
+}
+
+.vertical_menu ul.AspNet-Menu li a:hover,
+.vertical_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a:hover {
+	/* Hover Background Color : */
+	background-color: transparent;
+
+	/* Remove comment characters below to */
+	/* change text color on hover.        */
+	/* color: #555555; */
+}
+
+/* You can add an image to indicate the presence */
+/* of submenu items (an arrow, for example).     */
+
+.vertical_menu ul.AspNet-Menu li a {
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+.vertical_menu ul {
+	/* Set the width of each top-level */
+	/* vertical menu option.           */
+	width: 16em;
+}
+
+.vertical_menu ul.AspNet-Menu ul {
+	/* Set the width of your submenu items.   */
+	/* You’ll also need to adjust two values, */
+	/* LEFT and RIGHT, in style rules below.  */
+	width: 16em;
+}
+
+.div_left_sec .vertical_menu ul.AspNet-Menu ul {
+	/* The LEFT value must match the WIDTH of */
+	/* .vertical_menu ul (top-level options)  */
+	/* to prevent overlap.                    */
+	position: absolute;
+	z-index: 400;
+	top: 0em;
+	left: 16em;
+}
+
+.div_right_sec .vertical_menu ul.AspNet-Menu ul {
+	/* The RIGHT value must match the WIDTH of */
+	/* .vertical_menu ul (top-level options)   */
+	/* to prevent overlap.                     */
+	position: absolute;
+	top: 0em;
+	right: 16em;
+}
+
+.vertical_menu ul.AspNet-Menu ul ul {
+	/* Set the width of your sub-submenu items. */
+	/* You’ll also need to adjust two values,   */
+	/* LEFT and RIGHT, in style rules below.    */
+	width: 16em;
+}
+
+.div_left_sec .vertical_menu ul.AspNet-Menu ul ul {
+	/* The LEFT value must match the WIDTH of */
+	/* .vertical_menu ul.AspNet-Menu ul       */
+	/* (submenu options) to prevent overlap.  */
+	position: absolute;
+	top: 0em;
+	left: 16em;
+}
+
+.div_right_sec .vertical_menu ul.AspNet-Menu ul ul {
+	/* The RIGHT value must match the WIDTH of */
+	/* .vertical_menu ul.AspNet-Menu ul        */
+	/* (submenu options) to prevent overlap.   */
+	position: absolute;
+	top: 0em;
+	right: 16em;
+}
+
+/* Other vertical menu elements */
+
+.vertical_menu .AspNet-Menu-Vertical {
+	position: relative;
+	z-index: 300;
+	top: 0em;
+	left: 0em;
+}
+
+.vertical_menu ul.AspNet-Menu li a:active,
+.vertical_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a:active {
+}
+
+.vertical_menu ul.AspNet-Menu li {
+}
+
+.vertical_menu ul.AspNet-Menu li span {
+}
+
+.vertical_menu ul.AspNet-Menu li a img {
+}
+
+.vertical_menu ul.AspNet-Menu li.AspNet-Menu-Leaf span {
+}
+
+.div_left_sec .vertical_menu ul.AspNet-Menu {
+}
+
+.div_right_sec .vertical_menu ul.AspNet-Menu {
+}
+
+
+/* ========================== */
+/* Mini Cart & Search Modules */
+/* ========================== */
+
+/* Mini Cart Module */
+
+#dvCart {
+	/* You may wish to adjust the settings below */
+	/* to match the values in the vertical menu. */
+	background-color: #7795BD;
+	color: #0000FF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	font-style: normal;
+	padding-left: 4px;
+	border-width: 1px;
+	border-color: #648ABD;
+	border-style: solid;
+
+	vertical-align: middle;
+	text-decoration: none;
+
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-attachment: scroll;
+	
+	/* In order for the Mini Cart to line up   */
+	/* properly with the vertical menu, the    */
+	/* cart width value must be slightly less. */
+	width: 15.4em;
+        display: none;
+}
+
+.img_cart {
+	/* Remove comment if you wish to not show  */
+	/* the shopping cart icon image. You can   */
+	/* then use a different image by setting   */
+	/* the BACKGROUND-IMAGE property for       */
+	/* #dvCart above.                          */
+	/* display: none; */
+
+	border: none;
+}
+
+/* Vertical Search Module */
+
+.search_v {
+	background-color: #7795BD;
+	width: 16em;
+	padding-left: 4px;
+	border-width: 1px;
+	border-color: #648ABD;
+	border-style: solid;
+	
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.search_v label, .search_v td {
+	/* Controls the search module text */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	color: #000000;
+}
+
+/* Horizontal Search Module */
+
+.search_h {
+	background-color: #CCFFFF;
+	color: #000000;
+	font-size: 10px;
+	font-style: normal;
+	vertical-align: middle;
+	text-decoration: none;
+	width: 100%;
+	padding-left: 8px;
+	border-width: 1px;
+	border-color: #C0C0C0;
+	border-style: dotted;
+}
+
+
+/* ======================================= */
+/* Setting the page width & page centering */
+/* ======================================= */
+
+/* .dv_Logo: a DIV that contains the logo image */
+/* #pagewrapper: a DIV that contains the rest   */
+/* of the page content                          */ 
+
+.dv_Logo, #pagewrapper {
+	/* Remove comment characters to center page. */
+	/* margin-left: auto; */
+	/* margin-right: auto; */
+
+	/* Remove comment characters to set width. */
+	/* width: 950px; */
+
+	/* Remove comment characters to make the content */
+	/* area have a different background color.       */
+	/* background-color: #FFFFFF; */
+}
+
+.div_top_sec {
+	width: 100%;
+}
+
+.tblTop {
+	width: 100%;
+
+}
+
+.tbl_left_cont_right {
+	width: 1100px;    
+        margin: 0 auto;
+}
+
+/* Left Section */
+
+.div_left_sec, #div_left_sec {
+	/* Remove comment characters below to set width. */
+	/* Remember that if the content within the DIV   */
+	/* is wider than the value you set, by default   */
+	/* the column will widen to accommodate content. */
+	/* width: 16em; */
+      
+}
+
+/* Right Section */
+
+.div_right_sec, #div_right_sec {
+	/* Remove comment characters below to set width. */
+	/* Remember that if the content within the DIV   */
+	/* is wider than the value you set, by default   */
+	/* the column will widen to accommodate content. */
+	/* width: 16em; */
+        display: none;
+}
+
+.div_content_sec {
+	background: #FFFFFF;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: left;
+	width: 100%;
+}
+
+.main_content {
+	background: #FFFFFF;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: left;
+}
+
+.div_bottom_sec {
+}
+
+.tblBottom {
+	width: 100%;
+}
+
+.div_footer_sec {
+	text-align: center;
+	width: 100%;
+        display: none;
+}
+
+.div_privacy {
+	text-align: center;
+	width: 100%;
+        display: none;
+}
+
+
+/* =============== */
+/* Common Elements */
+/* =============== */
+
+ul {
+}
+
+li {
+}
+
+li a {
+}
+
+li a:link {
+}
+
+li a:visited {
+}
+
+li a:hover {
+}
+
+li a:active {
+}
+
+
+/* ========================================= */
+/* Insert your custom classes & styles below */
+/* ========================================= */
+
+#btnDefaultCss, #lbtnCss, #btnimgCss, #btnBuildCss {
+    display: none;
+}
+
+.LinkNormal {
+z-index: 9999;
+position: absolute;
+}
+
+.selectCol1 {
+vertical-align: top;
+padding: 0;
+text-align: center;
+}
+.searchBox {
+height: auto;
+padding-top: 16px;
+text-align: center;
+}
+.divSelectDept {
+height: auto;
+margin-top: 0;
+overflow: auto;
+text-align:center;
+padding: 10px 0;
+}
+.courseSelect {
+padding-top: 7px;
+}
+
+table.tblbottom, .tblBottom td, .tblBottom {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+table.tblTop {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+div[id$="dvHtmlContent"] {
+    min-width: 0% !important;
+}
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+#content {
+    font-size: 1em;
+}
+#breadcrumbs {
+    font-size: 12px;
+}
+#quickInstruction P {
+    font-size: inherit;
+}
+#ctl00_ctl00_ctl00_Content_Content_Content_lblWelcome {
+    white-space: normal;
+}
+.courseSub {
+width: 47%;
+}
+.pager {
+font-size: small;
+}
+
+
+/* ============================================== */
+/* Insert Rebecca's custom classes & styles below */
+/* ============================================== */
+
+
+
+.tblCourseSelect {
+    height: 350px;
+    padding-bottom: 45px;
+    padding-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#container{
+margin: 0 30px;
+}
+.selectCol1{
+padding-right: 50px;
+}
+.formCellDark{
+background-color: transparent;
+}
+.formCellLite{
+background-color: transparent;
+}
+#ctl00_ctl00_Content_Content_passform {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.Topcells2{
+background-color: transparent;
+}
+.Topcells2 a{
+font-size: 14px;
+color: #00693C;
+}
+
+.Topcells2 a:hover{
+font-weight: bold;
+}
+.divCaptcha{
+border: 0px;
+padding-top: 15px;
+}
+.term_Inquiry{
+border: 0;
+font-size: 12px;
+}
+
+.ButtonsBG{
+border: 0;
+background-color: transparent;
+}
+table.tableBorder{
+border: 0;
+}
+div.myCartItemSummary{
+border: 0;
+}
+.status{
+color: red;
+font-weight: bold;
+font-size: 12px;
+}
+
+#btnDefaultCss, #lbtnCss, #btnimgCss, #btnBuildCss {
+    display: none;
+}
+div.myCartItemSummary{
+border: 0;
+}
+#tblTitle{
+font-size: 12px;
+}
+.TabBody{
+font-size: 12px;
+}
+
+.button-small.searchcoursebutton{
+background-color: #007272;
+margin-top: -5px;
+
+}
+
+.button{
+background-color: #007272;
+
+}
+
+.button.subtle{
+
+background-color: #ffd701;
+color: #007272;
+}
+
+.fontSizeB.lnkRegister{
+color: #007272;
+font-weight: bold:
+font-size: 14px;
+}
+
+.fontSizeB.lnkLostPassword{
+color: #007272;
+font-weight: bold:
+font-size: 14px;
+}
+
+
+#ctl00_ctl00_Content_Content_CustRegLink{
+color: #007272;
+font-weight: bold;
+font-size: 14px;
+
+}
+#ctl00_ctl00_Content_Content_Hyperlink1{
+color: #007272;
+font-weight: bold;
+font-size: 14px;
+
+}
+.formCellDark{
+color: #007272;
+font-weight: bold;
+font-size: 14px;
+
+}
+
+/*styles textbook notes*/
+
+#ctl00_ctl00_Content_Content_rptCourses_ctrl0_lblCourseNotes,  #ctl00_ctl00_Content_Content_rptCourses_ctrl1_lblCourseNotes, #ctl00_ctl00_Content_Content_rptCourses_ctrl2_lblCourseNotes,#ctl00_ctl00_Content_Content_rptCourses_ctrl3_lblCourseNotes, #ctl00_ctl00_Content_Content_rptCourses_ctrl4_lblCourseNotes{
+color: #ffffff;
+}
+#ctl00_ctl00_Content_Content_rptCourses_ctrl0_div_course_note, #ctl00_ctl00_Content_Content_rptCourses_ctrl1_div_course_note, #ctl00_ctl00_Content_Content_rptCourses_ctrl2_div_course_note, #ctl00_ctl00_Content_Content_rptCourses_ctrl3_div_course_note{
+background-color: red;
+}
+#ctl00_ctl00_Content_Content_rptCourses_ctrl0_div_course_note > p, #ctl00_ctl00_Content_Content_rptCourses_ctrl1_div_course_note > p, #ctl00_ctl00_Content_Content_rptCourses_ctrl2_div_course_note > p, #ctl00_ctl00_Content_Content_rptCourses_ctrl3_div_course_note > p{
+font-size: 17px;
+}
+
+
+/*----------RegisterButton------------*/
+
+#ctl00_ctl00_Content_Content_Button{
+color: #ffffff;
+background-color: #003768;
+padding-bottom: 5px;
+border: none;
+width: 100px;
+height: 33px;
+font-size: 18px;
+}
+
+/*----------FacultyRegisterButton------------*/
+
+
+#ctl00_ctl00_Content_Content_btnAdopt{
+color: #ffffff;
+background-color: #003768;
+padding-bottom: 5px;
+border: none;
+width: 200px;
+height: 33px;
+font-size: 18px;
+}
