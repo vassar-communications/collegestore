@@ -2,6 +2,79 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19127",
 "files": {
+	"\/assets\/css\/galleria.azur.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/galleria.azur.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/images\/0070_14_08_KR_0073-footer-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53421,
+		"inputAbbreviatedPath": "\/assets\/images\/0070_14_08_KR_0073-footer-bg.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/0070_14_08_KR_0073-footer-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/0071_14_08_MF_9532-2-header-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66835,
+		"inputAbbreviatedPath": "\/assets\/images\/0071_14_08_MF_9532-2-header-bg.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/0071_14_08_MF_9532-2-header-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/171-social-043_twitter copy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3310,
+		"inputAbbreviatedPath": "\/assets\/images\/171-social-043_twitter copy.png",
+		"outputAbbreviatedPath": "\/assets\/images\/171-social-043_twitter copy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/171-social-046_facebook copy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3258,
+		"inputAbbreviatedPath": "\/assets\/images\/171-social-046_facebook copy.png",
+		"outputAbbreviatedPath": "\/assets\/images\/171-social-046_facebook copy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/171-social-078_instagram copy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3395,
+		"inputAbbreviatedPath": "\/assets\/images\/171-social-078_instagram copy.png",
+		"outputAbbreviatedPath": "\/assets\/images\/171-social-078_instagram copy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/college-store-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -12,6 +85,110 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/assets\/images\/slideshow\/0070_14_08_KR_0073.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 222178,
+		"inputAbbreviatedPath": "\/assets\/images\/slideshow\/0070_14_08_KR_0073.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/slideshow\/0070_14_08_KR_0073.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/slideshow\/0070_14_08_KR_0117.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 209862,
+		"inputAbbreviatedPath": "\/assets\/images\/slideshow\/0070_14_08_KR_0117.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/slideshow\/0070_14_08_KR_0117.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/slideshow\/0071_14_08_MF_9532-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.1436e+06,
+		"inputAbbreviatedPath": "\/assets\/images\/slideshow\/0071_14_08_MF_9532-2.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/slideshow\/0071_14_08_MF_9532-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/social-043_twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3310,
+		"inputAbbreviatedPath": "\/assets\/images\/social-043_twitter.png",
+		"outputAbbreviatedPath": "\/assets\/images\/social-043_twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/social-046_facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3258,
+		"inputAbbreviatedPath": "\/assets\/images\/social-046_facebook.png",
+		"outputAbbreviatedPath": "\/assets\/images\/social-046_facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/social-078_instagram.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3395,
+		"inputAbbreviatedPath": "\/assets\/images\/social-078_instagram.png",
+		"outputAbbreviatedPath": "\/assets\/images\/social-078_instagram.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/js\/171-galleria-1.3.5.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/171-galleria-1.3.5.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/171-galleria-1.3.5.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/171-galleria.azur.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/171-galleria.azur.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/171-galleria.azur.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/sass\/_mixins.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/_mixins.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_mixins.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/style.scss": {
 		"createSourceMap": 0,

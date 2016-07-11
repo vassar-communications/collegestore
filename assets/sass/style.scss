@@ -1,626 +1,35 @@
-@import url("http://cmspreview.vassar.edu/collegestore/web/assets/css/style-local.css");
-
-/* ======================== */
-/* Page Background category */
-/* ======================== */
-
-body {
-	/* Page Background Color: */
-	background-color: #FFFFFF;
-	/* Background Image: */
-	background-image: url();
-	/* Repeat: */
-	background-repeat: repeat;
-	/* Attachment: */
-	background-attachment: scroll;
-
-	color: #000000;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 10px;
-        margin: 0px;
-        overflow-y: scroll;
-}
-
-
-/* =================== */
-/* Hyperlinks category */
-/* =================== */
-
-/* Hyperlink – Default */
-A:link {
-	/* Font: */
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	/* Size: */
-	font-size: 10px;
-	/* Style: */
-	font-style: normal;
-	/* Weight: */
-	font-weight: normal;
-	/* Color: */
-	color: #000099;
-}
-
-/* Hyperlink – Visited */
-A:visited {
-	/* Font: */
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	/* Size: */
-	font-size: 10px;
-	/* Style: */
-	font-style: normal;
-	/* Weight: */
-	font-weight: normal;
-	/* Color: */
-	color: #000099;
-}
-
-/* Hyperlink – Hover */
-A:hover {
-	/* Font: */
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	/* Size: */
-	font-size: 10px;
-	/* Style: */
-	font-style: normal;
-	/* Weight: */
-	font-weight: normal;
-	/* Color: */
-	color: #0000FF;
-}
-
-/* Hyperlink – Active */
-A:active {
-	/* Font: */
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	/* Size: */
-	font-size: 10px;
-	/* Style: */
-	font-style: normal;
-	/* Weight: */
-	font-weight: normal;
-	/* Color: */
-	color: #FFCC00;
-}
-
-
-/* ============================ */
-/* Headers and Footers category */
-/* ============================ */
-
-.LocationBar {
-	/* Title Bar Background Color: */
-	background-color: transparent;
-	/* Title Bar Font: */
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	/* Title Bar Font Size: */
-	font-size: 20px;
-	/* Title Bar Style: */
-	font-style: normal;
-	/* Title Bar Weight: */
-	font-weight: bold;
-	/* Title Bar Font Color: */
-	color: #007272;
-        border: 0;
-        padding-left: 50px;
-        margin-top: 50px;
-}
-
-.ButtonsBG {
-	/* Table Footer Background Color: */
-	background-color: #EEEEEE;
-
-	vertical-align: middle;
-	text-align: right;
-}
-
-
-/* ========================= */
-/* Adoption Headers category */
-/* ========================= */
-
-.AdoptTitleBG {
-	/* Adoption Title Font Color: */
-	color: #000000;
-	/* Adoption Font: */
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	/* Adoption Title Font Size: */
-	font-size: 12px;
-	/* Adoption Title Font Style: */
-	font-style: normal;
-	/* Adoption Title Background Color: */
-	background-color: #CCCCCC;
-	/* Adoption Title Font Weight: */
-	font-weight: bold;
-
-	padding-left: 8px;
-}
-
-
-/* ========================== */
-/* Menu – Horizontal category */
-/* ========================== */
-
-.horizontal_menu ul.AspNet-Menu li a,
-.horizontal_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a {
-	/* Font: */
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	/* Size: */
-	font-size: 10px;
-	/* Style: */
-	font-style: normal;
-	/* Link Color: */
-	color: #0000FF;
-	/* Weight: */
-	font-weight: bold;
-
-	/* You can adjust the border around horizontal */
-	/* menu items below.                           */
-	border-width: 1px;
-	border-color: #648ABD;
-	border-style: solid;
-
-	padding: 4px;
-}
-
-.horizontal_menu ul.AspNet-Menu li a:link,
-.horizontal_menu ul.AspNet-Menu li a:visited,
-.horizontal_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a:link,
-.horizontal_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a:visited {
-	/* Background Color: */
-	background-color: #7795BD;
-}
-
-.horizontal_menu ul.AspNet-Menu li a:hover,
-.horizontal_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a:hover {
-	/* Hover Background Color : */
-	background-color: #EEEEEE;
-
-	/* Remove comment characters below to */
-	/* change text color on hover.        */
-	/* color: #555555; */
-}
-
-/* You can add an image to indicate the presence */
-/* of submenu items (an arrow, for example).     */
-
-.horizontal_menu ul.AspNet-Menu li a {
-	background-image: url();
-	background-repeat: no-repeat;
-	background-position: center right;
-}
-
-.horizontal_menu ul.AspNet-Menu li {
-	/* Set the width of each top-level */
-	/* horizontal menu option.         */
-	width: 16em;
-}
-
-.horizontal_menu ul.AspNet-Menu li li {
-	/* Set the width of your submenu items. If you */
-	/* adjust this, also change the LEFT value for */ 
-	/* .horizontal_menu ul.AspNet-Menu li ul li ul */
-	/* to be the same value.                       */
-	width: 16em;
-}
-
-.horizontal_menu ul.AspNet-Menu li ul li ul {
-	/* The LEFT value must match the WIDTH value of */
-	/* the submenu items to prevent an overlap.     */
-	position: absolute;
-	top: 0em;
-	left: 16em;
-}
-
-.horizontal_menu ul.AspNet-Menu ul {
-	/* Adjust the TOP value to prevent submenu items */
-	/* from overlapping their top-level options.     */
-	position: absolute;
-	top: 2.2em;
-	left: 0em;
-}
-
-
-/* DROPDOWN STYLING */
-
-.horizontal_menu ul.AspNet-Menu li li a {
-}
-
-.horizontal_menu ul.AspNet-Menu li li a:hover {
-}
-
-/* Other horizontal menu elements */
-
-.horizontal_menu ul.AspNet-Menu li a:active,
-.horizontal_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a:active {
-}
-
-.horizontal_menu .AspNet-Menu-Horizontal {
-}
-
-.horizontal_menu ul {
-}
-
-.horizontal_menu ul.AspNet-Menu {
-	width: 100%;
-	z-index: 400;
-}
-
-.horizontal_menu ul.AspNet-Menu li span {
-	border-bottom-width: 1px;
-}
-
-.horizontal_menu ul.AspNet-Menu li a img {
-}
-
-.horizontal_menu ul.AspNet-Menu li.AspNet-Menu-Leaf span {
-}
-
-.horizontal_menu ul.AspNet-Menu ul ul {
-	position:absolute;
-}
-
-
-/* ======================== */
-/* Menu – Vertical category */
-/* ======================== */
-
-.vertical_menu ul.AspNet-Menu li a,
-.vertical_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a {
-
-	/* Font: */
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	/* Size: */
-	font-size: 10px;
-	/* Style: */
-	font-style: normal;
-	/* Link Color: */
-	color: #830300;
-	/* Weight: */
-	font-weight: bold;
-
-	/* You can adjust the border around vertical */
-	/* menu items below.                         */
-	border-width: 1px;
-	border-color: #830300;
-	border-style: solid;
-
-	padding: 4px;
-}
-
-.vertical_menu ul.AspNet-Menu li a:link,
-.vertical_menu ul.AspNet-Menu li a:visited,
-.vertical_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a:link,
-.vertical_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a:visited {
-	/* Background Color: */
-	background-color: transparent;
-}
-
-.vertical_menu ul.AspNet-Menu li a:hover,
-.vertical_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a:hover {
-	/* Hover Background Color : */
-	background-color: transparent;
-
-	/* Remove comment characters below to */
-	/* change text color on hover.        */
-	/* color: #555555; */
-}
-
-/* You can add an image to indicate the presence */
-/* of submenu items (an arrow, for example).     */
-
-.vertical_menu ul.AspNet-Menu li a {
-	background-image: url();
-	background-repeat: no-repeat;
-	background-position: center right;
-}
-
-.vertical_menu ul {
-	/* Set the width of each top-level */
-	/* vertical menu option.           */
-	width: 16em;
-}
-
-.vertical_menu ul.AspNet-Menu ul {
-	/* Set the width of your submenu items.   */
-	/* You’ll also need to adjust two values, */
-	/* LEFT and RIGHT, in style rules below.  */
-	width: 16em;
-}
-
-.div_left_sec .vertical_menu ul.AspNet-Menu ul {
-	/* The LEFT value must match the WIDTH of */
-	/* .vertical_menu ul (top-level options)  */
-	/* to prevent overlap.                    */
-	position: absolute;
-	z-index: 400;
-	top: 0em;
-	left: 16em;
-}
-
-.div_right_sec .vertical_menu ul.AspNet-Menu ul {
-	/* The RIGHT value must match the WIDTH of */
-	/* .vertical_menu ul (top-level options)   */
-	/* to prevent overlap.                     */
-	position: absolute;
-	top: 0em;
-	right: 16em;
-}
-
-.vertical_menu ul.AspNet-Menu ul ul {
-	/* Set the width of your sub-submenu items. */
-	/* You’ll also need to adjust two values,   */
-	/* LEFT and RIGHT, in style rules below.    */
-	width: 16em;
-}
-
-.div_left_sec .vertical_menu ul.AspNet-Menu ul ul {
-	/* The LEFT value must match the WIDTH of */
-	/* .vertical_menu ul.AspNet-Menu ul       */
-	/* (submenu options) to prevent overlap.  */
-	position: absolute;
-	top: 0em;
-	left: 16em;
-}
-
-.div_right_sec .vertical_menu ul.AspNet-Menu ul ul {
-	/* The RIGHT value must match the WIDTH of */
-	/* .vertical_menu ul.AspNet-Menu ul        */
-	/* (submenu options) to prevent overlap.   */
-	position: absolute;
-	top: 0em;
-	right: 16em;
-}
-
-/* Other vertical menu elements */
-
-.vertical_menu .AspNet-Menu-Vertical {
-	position: relative;
-	z-index: 300;
-	top: 0em;
-	left: 0em;
-}
-
-.vertical_menu ul.AspNet-Menu li a:active,
-.vertical_menu ul.AspNet-Menu li.AspNet-Menu-Leaf a:active {
-}
-
-.vertical_menu ul.AspNet-Menu li {
-}
-
-.vertical_menu ul.AspNet-Menu li span {
-}
-
-.vertical_menu ul.AspNet-Menu li a img {
-}
-
-.vertical_menu ul.AspNet-Menu li.AspNet-Menu-Leaf span {
-}
-
-.div_left_sec .vertical_menu ul.AspNet-Menu {
-}
-
-.div_right_sec .vertical_menu ul.AspNet-Menu {
-}
-
-
-/* ========================== */
-/* Mini Cart & Search Modules */
-/* ========================== */
-
-/* Mini Cart Module */
-
-#dvCart {
-	/* You may wish to adjust the settings below */
-	/* to match the values in the vertical menu. */
-	background-color: #7795BD;
-	color: #0000FF;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 10px;
-	font-weight: bold;
-	font-style: normal;
-	padding-left: 4px;
-	border-width: 1px;
-	border-color: #648ABD;
-	border-style: solid;
-
-	vertical-align: middle;
-	text-decoration: none;
-
-	background-image: url();
-	background-repeat: no-repeat;
-	background-position: center right;
-	background-attachment: scroll;
-	
-	/* In order for the Mini Cart to line up   */
-	/* properly with the vertical menu, the    */
-	/* cart width value must be slightly less. */
-	width: 15.4em;
-        display: none;
-}
-
-.img_cart {
-	/* Remove comment if you wish to not show  */
-	/* the shopping cart icon image. You can   */
-	/* then use a different image by setting   */
-	/* the BACKGROUND-IMAGE property for       */
-	/* #dvCart above.                          */
-	/* display: none; */
-
-	border: none;
-}
-
-/* Vertical Search Module */
-
-.search_v {
-	background-color: #7795BD;
-	width: 16em;
-	padding-left: 4px;
-	border-width: 1px;
-	border-color: #648ABD;
-	border-style: solid;
-	
-	vertical-align: middle;
-	text-decoration: none;
-}
-
-.search_v label, .search_v td {
-	/* Controls the search module text */
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 10px;
-	font-style: normal;
-	color: #000000;
-}
-
-/* Horizontal Search Module */
-
-.search_h {
-	background-color: #CCFFFF;
-	color: #000000;
-	font-size: 10px;
-	font-style: normal;
-	vertical-align: middle;
-	text-decoration: none;
-	width: 100%;
-	padding-left: 8px;
-	border-width: 1px;
-	border-color: #C0C0C0;
-	border-style: dotted;
-}
-
-
-/* ======================================= */
-/* Setting the page width & page centering */
-/* ======================================= */
-
-/* .dv_Logo: a DIV that contains the logo image */
-/* #pagewrapper: a DIV that contains the rest   */
-/* of the page content                          */ 
-
-.dv_Logo, #pagewrapper {
-	/* Remove comment characters to center page. */
-	/* margin-left: auto; */
-	/* margin-right: auto; */
-
-	/* Remove comment characters to set width. */
-	/* width: 950px; */
-
-	/* Remove comment characters to make the content */
-	/* area have a different background color.       */
-	/* background-color: #FFFFFF; */
-}
-
-.div_top_sec {
-	width: 100%;
-}
-
-.tblTop {
-	width: 100%;
-
-}
-
-.tbl_left_cont_right {
-	width: 1100px;    
-        margin: 0 auto;
-}
-
-/* Left Section */
-
-.div_left_sec, #div_left_sec {
-	/* Remove comment characters below to set width. */
-	/* Remember that if the content within the DIV   */
-	/* is wider than the value you set, by default   */
-	/* the column will widen to accommodate content. */
-	/* width: 16em; */
-      
-}
-
-/* Right Section */
-
-.div_right_sec, #div_right_sec {
-	/* Remove comment characters below to set width. */
-	/* Remember that if the content within the DIV   */
-	/* is wider than the value you set, by default   */
-	/* the column will widen to accommodate content. */
-	/* width: 16em; */
-        display: none;
-}
-
-.div_content_sec {
-	background: #FFFFFF;
-	color: #000000;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 10px;
-	text-align: left;
-	width: 100%;
-}
-
-.main_content {
-	background: #FFFFFF;
-	color: #000000;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 10px;
-	text-align: left;
-}
-
-.div_bottom_sec {
-}
-
-.tblBottom {
-	width: 100%;
-}
-
-.div_footer_sec {
-	text-align: center;
-	width: 100%;
-        display: none;
-}
-
-.div_privacy {
-	text-align: center;
-	width: 100%;
-        display: none;
-}
-
-
-/* =============== */
-/* Common Elements */
-/* =============== */
-
-ul {
-}
-
-li {
-}
-
-li a {
-}
-
-li a:link {
-}
-
-li a:visited {
-}
-
-li a:hover {
-}
-
-li a:active {
-}
+@import "_mixins";
+@import "compass";
+
+$sans-serif: Verdana, Arial, Helvetica, sans-serif;
+$serif: serif;
+$fontWeightNormal: normal;
+$fontWeightMedium: 600;
+$fontWeightBold: bold;
+
+$orange: #ef4e45;
+$medGrey: #9A9A9A;
+$white: #fff;
+$mauve: #c4b9ce;
+$yellow: #ffd75e;
+$darkGrey: shade(#c4b9ce, 65%);
+
+$linkColor: $orange;
+$linkColorVisited: $medGrey;
+$linkColorHoverFocus: $mauve;
+$linkColorActive: $yellow;
 
 
 /* ========================================= */
 /* Insert your custom classes & styles below */
 /* ========================================= */
-
 #btnDefaultCss, #lbtnCss, #btnimgCss, #btnBuildCss {
     display: none;
 }
-
 .LinkNormal {
 z-index: 9999;
 position: absolute;
 }
-
 .selectCol1 {
 vertical-align: top;
 padding: 0;
@@ -641,26 +50,8 @@ padding: 10px 0;
 .courseSelect {
 padding-top: 7px;
 }
-
-table.tblbottom, .tblBottom td, .tblBottom {
-    border-spacing: 0;
-    border-collapse: collapse;
-}
-table.tblTop {
-    border-spacing: 0;
-    border-collapse: collapse;
-}
-div[id$="dvHtmlContent"] {
-    min-width: 0% !important;
-}
-*, *:before, *:after {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
- }
 #content {
     font-size: 1em;
-}
-#breadcrumbs {
-    font-size: 12px;
 }
 #quickInstruction P {
     font-size: inherit;
@@ -675,13 +66,9 @@ width: 47%;
 font-size: small;
 }
 
-
 /* ============================================== */
 /* Insert Rebecca's custom classes & styles below */
 /* ============================================== */
-
-
-
 .tblCourseSelect {
     height: 350px;
     padding-bottom: 45px;
@@ -689,18 +76,11 @@ font-size: small;
     margin-right: auto;
     margin-left: auto;
 }
-
 #container{
 margin: 0 30px;
 }
 .selectCol1{
 padding-right: 50px;
-}
-.formCellDark{
-background-color: transparent;
-}
-.formCellLite{
-background-color: transparent;
 }
 #ctl00_ctl00_Content_Content_passform {
     margin-left: 50px;
@@ -713,7 +93,6 @@ background-color: transparent;
 font-size: 14px;
 color: #00693C;
 }
-
 .Topcells2 a:hover{
 font-weight: bold;
 }
@@ -725,7 +104,6 @@ padding-top: 15px;
 border: 0;
 font-size: 12px;
 }
-
 .ButtonsBG{
 border: 0;
 background-color: transparent;
@@ -741,7 +119,6 @@ color: red;
 font-weight: bold;
 font-size: 12px;
 }
-
 #btnDefaultCss, #lbtnCss, #btnimgCss, #btnBuildCss {
     display: none;
 }
@@ -754,71 +131,29 @@ font-size: 12px;
 .TabBody{
 font-size: 12px;
 }
-
 .button-small.searchcoursebutton{
 background-color: #007272;
 margin-top: -5px;
-
 }
-
 .button{
 background-color: #007272;
-
 }
-
 .button.subtle{
-
 background-color: #ffd701;
 color: #007272;
 }
-
 .fontSizeB.lnkRegister{
 color: #007272;
-font-weight: bold:
+font-weight: bold;
 font-size: 14px;
 }
-
 .fontSizeB.lnkLostPassword{
 color: #007272;
-font-weight: bold:
-font-size: 14px;
-}
-
-
-#ctl00_ctl00_Content_Content_CustRegLink{
-color: #007272;
 font-weight: bold;
 font-size: 14px;
-
 }
-#ctl00_ctl00_Content_Content_Hyperlink1{
-color: #007272;
-font-weight: bold;
-font-size: 14px;
-
-}
-.formCellDark{
-color: #007272;
-font-weight: bold;
-font-size: 14px;
-
-}
-
-/*styles textbook notes*/
-
-#ctl00_ctl00_Content_Content_rptCourses_ctrl0_lblCourseNotes,  #ctl00_ctl00_Content_Content_rptCourses_ctrl1_lblCourseNotes, #ctl00_ctl00_Content_Content_rptCourses_ctrl2_lblCourseNotes,#ctl00_ctl00_Content_Content_rptCourses_ctrl3_lblCourseNotes, #ctl00_ctl00_Content_Content_rptCourses_ctrl4_lblCourseNotes{
-color: #ffffff;
-}
-#ctl00_ctl00_Content_Content_rptCourses_ctrl0_div_course_note, #ctl00_ctl00_Content_Content_rptCourses_ctrl1_div_course_note, #ctl00_ctl00_Content_Content_rptCourses_ctrl2_div_course_note, #ctl00_ctl00_Content_Content_rptCourses_ctrl3_div_course_note{
-background-color: red;
-}
-#ctl00_ctl00_Content_Content_rptCourses_ctrl0_div_course_note > p, #ctl00_ctl00_Content_Content_rptCourses_ctrl1_div_course_note > p, #ctl00_ctl00_Content_Content_rptCourses_ctrl2_div_course_note > p, #ctl00_ctl00_Content_Content_rptCourses_ctrl3_div_course_note > p{
-font-size: 17px;
-}
-
 
 /*----------RegisterButton------------*/
-
 #ctl00_ctl00_Content_Content_Button{
 color: #ffffff;
 background-color: #003768;
@@ -830,8 +165,6 @@ font-size: 18px;
 }
 
 /*----------FacultyRegisterButton------------*/
-
-
 #ctl00_ctl00_Content_Content_btnAdopt{
 color: #ffffff;
 background-color: #003768;
@@ -840,4 +173,549 @@ border: none;
 width: 200px;
 height: 33px;
 font-size: 18px;
+}
+
+/* typography */
+html {
+    font-family: $sans-serif;
+    font-size: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.1;
+	margin-bottom: .4em;
+    font-weight: $fontWeightMedium;
+    font-family: $serif;
+    margin-top: 0;
+}
+h1 {
+    font-size: 1.802em;
+}
+h2 {
+    font-size: 1.266em;
+}
+h3 {
+    font-size: 1em;
+}
+h4 {
+    font-size: .8em;
+}
+h5 {
+    font-size: 1em;
+    font-family: $serif;
+    font-weight: $fontWeightBold;
+}
+p {
+	margin-top: 0;
+}
+h1 + ul, h2 + ul, h3 + ul, h4 + ul, h5 + ul, h6 + ul, h1 + ol, h2 + ol, h3 + ol, h4 + ol, h5 + ol, h6 + ol {
+	margin-top: 0;
+}
+th {
+	font-weight: $fontWeightBold;
+}
+td, b {
+	font-weight: $fontWeightNormal;
+}
+#ctl00_ctl00_menu_v a {
+    white-space: normal !important;
+}
+#navHorizontal {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: $fontWeightBold;
+    .AspNet-Menu-Link {
+        padding: 1em;
+    }
+}
+.vertical_menu {
+    .AspNet-Menu > li {
+        margin: 0 0 .7em;
+    }
+    ul {
+        text-transform: uppercase;
+        font-weight: $fontWeightBold;
+        ul {
+            font-weight: $fontWeightNormal;
+            text-transform: none;
+        }
+        li ul li {
+            padding: 0 0 .7em;
+        }
+        li ul li:last-child {
+            padding-bottom: 0;
+        }
+    }
+}
+.vertical_menu#ctl00_ctl00_menu_v .AspNet-Menu--Open > ul,
+.vertical_menu#ctl00_ctl00_menu_v .AspNet-Menu--Current > ul {
+    padding: 0 0 0 1em;
+    margin: 1em 0 1em .25em;
+    overflow: hidden;
+}
+.AspNet-Menu--Current > .AspNet-Menu-Link {
+    font-weight: $fontWeightBold;
+}
+
+#topSearch {
+    #ctl00_ctl00_ctl12_btnSearch {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+#socialNav,
+#miniNav,
+#navHorizontal,
+.hours,
+.information,
+.socialNav2 {
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+            display: inline-block;
+        }
+    }
+}
+#miniNav {
+    li:after {
+        content: "|";
+        margin-left: .3em;
+        display: inline-block;
+    }
+    li#theCart {
+        vertical-align: bottom;
+    }
+    li:last-child:after {
+        content: "";
+        margin: 0;
+    }
+}
+#bottomNav {
+    text-align: center;
+    h4 {
+        font-size: 1.2em;
+    }
+}
+.location,
+.hours,
+.information,
+.socialNav2 {
+   display: inline-block;
+   text-align: left;
+   vertical-align: top;
+    ul {
+        li {
+            display: block;
+        }
+    }
+}
+.socialNav2 ul li {
+    display: inline-block;
+}
+.location,
+.hours,
+.information {
+   margin-right: 3%;
+}
+#socialNav {
+    margin-top: -1.6em;
+}
+.breadCrumbs {
+    font-size: .8em;
+    font-weight: $fontWeightNormal;
+}
+.errors,
+.help {
+    @include v-pixel-fallback ('line-height', 1rem);
+}
+.LocationBar {
+	background-color: transparent;
+    @include v-pixel-fallback ('font-size', 1.5rem);
+	font-style: normal;
+	font-weight: $fontWeightBold;
+	color: $darkGrey;
+    border: 0;
+    padding-left: 0;
+    margin-top: 0;
+}
+#ctl00_ctl00_Content_Content_CustRegLink,
+#ctl00_ctl00_Content_Content_Hyperlink1,
+.formCellDark {
+    @include v-pixel-fallback ('font-size', 1rem);
+}
+#ctl00_ctl00_Content_Content_rptCourses_ctrl0_div_course_note > p, #ctl00_ctl00_Content_Content_rptCourses_ctrl1_div_course_note > p, #ctl00_ctl00_Content_Content_rptCourses_ctrl2_div_course_note > p, #ctl00_ctl00_Content_Content_rptCourses_ctrl3_div_course_note > p{
+font-size: 17px;
+}
+.ButtonsBG {
+	vertical-align: middle;
+	text-align: right;
+}
+.AdoptTitleBG {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    @include v-pixel-fallback ('font-size', 1rem);
+	font-style: normal;
+	font-weight: $fontWeightBold;
+	padding-left: 8px;
+}
+/* Mini Cart Module */
+#dvCart {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    @include v-pixel-fallback ('font-size', 1rem);
+	font-weight: $fontWeightBold;
+	font-style: normal;
+	padding-left: 4px;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+/* layout */
+table.tblbottom, .tblBottom td, .tblBottom {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+table.tblTop {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+div[id$="dvHtmlContent"] {
+    min-width: 0% !important;
+}
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+img, embed, object, video {
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+    max-width: 100%;
+    _width: 100%;
+}
+.div_top_sec,
+.div_bottom_sec {
+    padding: 3%;
+    width: 100%;
+    position: relative;
+}
+.div_top_sec {
+    padding: 3%;
+}
+.div_bottom_sec {
+    margin-bottom: -3%;
+}
+.div_left_sec {
+    width: 20%;
+    .div_left_sec {
+        width: 100%;
+    }
+}
+.div_content_sec {
+    width: 80%;
+}
+.div_content_sec {
+    padding: 3%;
+    .div_content_sec {
+        padding: 0;
+    }
+}
+.div_left_sec,
+.div_content_sec {
+    padding: 3%;
+    .div_content_sec {
+        padding: 0;
+    }
+}
+/* Right Section */
+.div_right_sec, #div_right_sec {
+	/* Remove comment characters below to set width. */
+	/* Remember that if the content within the DIV   */
+	/* is wider than the value you set, by default   */
+	/* the column will widen to accommodate content. */
+	/* width: 16em; */
+    display: none;
+}
+.tblTop,
+.div_content_sec,
+.tblBottom {
+	width: 100%;
+}
+#topSearch,
+#miniNav {
+    float: right;
+}
+.home {
+    .div_left_sec {
+        display: none;
+        visibility: hidden;
+    }
+    .div_content_sec {
+        padding: 0;
+    }
+}
+.search_v,
+.div_footer_sec,
+.div_privacy {
+    display: none;
+    visibility: hidden;
+}
+#topSearch {
+    clear: right;
+    height: 2em;
+    width: 15em;
+    margin: 1em 0 0 0;
+    position: relative;
+    #ctl00_ctl00_ctl12_txtSearch {
+        width: 75% !important;
+        position: absolute;
+        top: 0;
+        right: auto;
+        bottom: 0;
+        left: 0;
+    }
+    #ctl00_ctl00_ctl12_btnSearch {
+        width: 25% !important;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: auto;
+    }
+}
+#socialNav {
+    float: right;
+}
+#socialNav,
+.socialNav2 {
+    img {
+        width: 1.6em;
+        height: auto;
+    }
+}
+#logo {
+    width: 10%;
+    margin: 0;
+}
+.tbl_left_cont_right {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+/* horizontal nav */
+#navHorizontal {
+    .AspNet-Menu-Link {
+        display: inline-block;
+    }
+}
+/* vertical nav */
+.js .vertical_menu li li {
+    display:none;
+}
+.js .vertical_menu li.AspNet-Menu--Open,
+.js .vertical_menu li.AspNet-Menu--Open>ul>li,
+.js .vertical_menu li.AspNet-Menu--Current,
+.js .vertical_menu li.AspNet-Menu--Current>ul>li {
+    display:block;
+}
+.vertical_menu ul.AspNet-Menu ul {
+    display: block;
+    position: relative;
+}
+.galleria {
+    width: 100%;
+}
+/* override for WebResource.axd... */
+ul.AspNet-Menu li:hover ul ul, ul.AspNet-Menu li:hover ul ul ul, ul.AspNet-Menu li.AspNet-Menu-Hover ul ul, ul.AspNet-Menu li.AspNet-Menu-Hover ul ul ul, ul.AspNet-Menu li.AspNet-Menu-Hover ul ul ul ul, ul.AspNet-Menu li.AspNet-Menu-Hover ul ul ul ul ul {
+    display: block !important;
+}
+/* Mini Cart Module */
+#dvCart {
+	width: 15.4em;
+    display: none;
+}
+
+/* color */
+a {
+    color: $linkColor !important;
+    text-decoration: none;
+    border-bottom: 1px solid $linkColor !important;
+    padding-bottom: 0;
+}
+a:visited {
+    color: $linkColorVisited !important;
+    border-bottom: 1px solid $linkColorVisited !important;
+}
+a:hover,
+a:focus {
+    color: $linkColorHoverFocus !important;
+    border-bottom: 1px solid $linkColorHoverFocus !important;
+}
+a:active {
+    color: $linkColorActive !important;
+    border-bottom: 1px solid $linkColorActive !important;
+}
+.div_top_sec,
+.div_bottom_sec {
+    a {
+        color: $white !important;
+        border-bottom: 1px solid $white !important;
+    }
+    a:visited {
+        color: $white !important;
+        border-bottom: 1px solid $white !important;
+    }
+    a:hover,
+    a:focus {
+        color: $linkColorHoverFocus !important;
+        border-bottom: 1px solid $linkColorHoverFocus !important;
+    }
+    a:active {
+        color: $linkColorActive !important;
+        border-bottom: 1px solid $linkColorActive !important;
+    }
+}
+.div_top_sec {
+    background: $orange url(http://insitestore3.mbsbooks.com/SiteImages/171-SchoolImages/171-top/171-0071_14_08_MF_9532-2-header-bg.jpg) no-repeat;
+    background-size: cover;
+}
+.div_bottom_sec {
+    a {
+        color: $white !important;
+        border-bottom: 1px solid $white !important;
+    }
+    a:visited {
+        color: $medGrey !important;
+        border-bottom: 1px solid $medGrey !important;
+    }
+    a:hover,
+    a:focus {
+        color: $linkColorHoverFocus !important;
+        border-bottom: 1px solid $linkColorHoverFocus !important;
+    }
+    a:active {
+        color: $linkColorActive !important;
+        border-bottom: 1px solid $linkColorActive !important;
+    }
+    background: $darkGrey url(http://insitestore3.mbsbooks.com/SiteImages/171-SchoolImages/171-bottom/171-0070_14_08_KR_0073-footer-bg.jpg) no-repeat;
+    background-size: cover;
+}
+#topSearch {
+    color: $white;
+}
+.AspNet-Menu-Link {
+    color: $orange !important;
+}
+.AspNet-Menu-Link:visited {
+    color: $orange !important;
+}
+.AspNet-Menu-Link:hover,
+.AspNet-Menu-Link:focus {
+    color: $linkColorHoverFocus !important;
+}
+.AspNet-Menu-Link:active {
+    color: $linkColorActive !important;
+}
+#navHorizontal {
+    .AspNet-Menu-Link {
+        color: $white !important;
+    }
+    .AspNet-Menu-Link:visited {
+        color: $white !important;
+    }
+    .AspNet-Menu-Link:hover,
+    .AspNet-Menu-Link:focus {
+        color: $linkColorHoverFocus !important;
+    }
+    .AspNet-Menu-Link:active {
+        color: $linkColorActive !important;
+    }
+}
+.vertical_menu#ctl00_ctl00_menu_v .AspNet-Menu--Open ul,
+.vertical_menu#ctl00_ctl00_menu_v .AspNet-Menu--Current ul {
+    border-left: 2px solid $mauve;
+}
+.AspNet-Menu--Current > .AspNet-Menu-Link {
+    color: $darkGrey !important;
+}
+#miniNav {
+    li:after {
+        color: $white;
+    }
+}
+#logo a:link,
+#socialNav a:link,
+.socialNav2 a:link,
+.AspNet-Menu-Link:link {
+    border-bottom: none !important;
+}
+#topSearch {
+    #ctl00_ctl00_ctl12_btnSearch {
+        background-color: $yellow;
+        border: none;
+        color: $orange;
+    }
+}
+body {
+	background-color: $white;
+	color: $darkGrey;
+}
+.div_top_sec {
+    background-color: $orange;
+}
+.div_bottom_sec {
+    background-color: $darkGrey;
+    color: $white;
+}
+#navHorizontal {
+    background-color: $darkGrey;
+    .AspNet-Menu-Link {
+        color: $white;
+    }
+}
+.formCellDark{
+background-color: transparent;
+}
+.formCellLite{
+background-color: transparent;
+}
+#ctl00_ctl00_Content_Content_CustRegLink,
+#ctl00_ctl00_Content_Content_Hyperlink1,
+.formCellDark {
+    color: $darkGrey;
+}
+.img_cart {
+	/* Remove comment if you wish to not show  */
+	/* the shopping cart icon image. You can   */
+	/* then use a different image by setting   */
+	/* the BACKGROUND-IMAGE property for       */
+	/* #dvCart above.                          */
+	/* display: none; */
+	border: none;
+}
+/*styles textbook notes*/
+#ctl00_ctl00_Content_Content_rptCourses_ctrl0_lblCourseNotes,  #ctl00_ctl00_Content_Content_rptCourses_ctrl1_lblCourseNotes, #ctl00_ctl00_Content_Content_rptCourses_ctrl2_lblCourseNotes,#ctl00_ctl00_Content_Content_rptCourses_ctrl3_lblCourseNotes, #ctl00_ctl00_Content_Content_rptCourses_ctrl4_lblCourseNotes{
+color: #ffffff;
+}
+#ctl00_ctl00_Content_Content_rptCourses_ctrl0_div_course_note, #ctl00_ctl00_Content_Content_rptCourses_ctrl1_div_course_note, #ctl00_ctl00_Content_Content_rptCourses_ctrl2_div_course_note, #ctl00_ctl00_Content_Content_rptCourses_ctrl3_div_course_note{
+background-color: red;
+}
+.ButtonsBG {
+	background-color: #EEEEEE;
+}
+.AdoptTitleBG {
+	color: #000000;
+	background-color: #CCCCCC;
+}
+#dvCart {
+	background-color: #7795BD;
+	color: #0000FF;
+	border-width: 1px;
+	border-color: #648ABD;
+	text-decoration: none;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-attachment: scroll;
 }
