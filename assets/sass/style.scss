@@ -7,80 +7,28 @@ $fontWeightNormal: normal;
 $fontWeightMedium: 600;
 $fontWeightBold: bold;
 
-$orange: #ef4e45;
+$orange: #f04e46;
 $medGrey: #9A9A9A;
 $white: #fff;
 $mauve: #c4b9ce;
 $yellow: #ffd75e;
 $darkGrey: shade(#c4b9ce, 65%);
-
+$mint: #c2e3d1;
+$blue: #8ba9d8;
+$sage: #e2ead3;
+$ochre: #e0dd7e;
 $linkColor: $orange;
 $linkColorVisited: $medGrey;
 $linkColorHoverFocus: $mauve;
 $linkColorActive: $yellow;
 
 
-/* ========================================= */
-/* Insert your custom classes & styles below */
-/* ========================================= */
-#btnDefaultCss, #lbtnCss, #btnimgCss, #btnBuildCss {
-    display: none;
-}
-.LinkNormal {
-z-index: 9999;
-position: absolute;
-}
-.selectCol1 {
-vertical-align: top;
-padding: 0;
-text-align: center;
-}
-.searchBox {
-height: auto;
-padding-top: 16px;
-text-align: center;
-}
-.divSelectDept {
-height: auto;
-margin-top: 0;
-overflow: auto;
-text-align:center;
-padding: 10px 0;
-}
-.courseSelect {
-padding-top: 7px;
-}
-#content {
-    font-size: 1em;
-}
-#quickInstruction P {
-    font-size: inherit;
-}
-#ctl00_ctl00_ctl00_Content_Content_Content_lblWelcome {
-    white-space: normal;
-}
-.courseSub {
-width: 47%;
-}
-.pager {
-font-size: small;
-}
-
 /* ============================================== */
 /* Insert Rebecca's custom classes & styles below */
 /* ============================================== */
-.tblCourseSelect {
-    height: 350px;
-    padding-bottom: 45px;
-    padding-top: 30px;
-    margin-right: auto;
-    margin-left: auto;
-}
+
 #container{
 margin: 0 30px;
-}
-.selectCol1{
-padding-right: 50px;
 }
 #ctl00_ctl00_Content_Content_passform {
     margin-left: 50px;
@@ -184,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.1;
 	margin-bottom: .4em;
     font-weight: $fontWeightMedium;
-    font-family: $serif;
+    font-family: $sans-serif;
     margin-top: 0;
 }
 h1 {
@@ -255,9 +203,8 @@ td, b {
 .AspNet-Menu--Current > .AspNet-Menu-Link {
     font-weight: $fontWeightBold;
 }
-
 #topSearch {
-    #ctl00_ctl00_ctl12_btnSearch {
+    #mySearchSubmit input {
         text-transform: uppercase;
         font-weight: bold;
     }
@@ -338,6 +285,7 @@ td, b {
     border: 0;
     padding-left: 0;
     margin-top: 0;
+    text-align: center;
 }
 #ctl00_ctl00_Content_Content_CustRegLink,
 #ctl00_ctl00_Content_Content_Hyperlink1,
@@ -367,6 +315,67 @@ font-size: 17px;
 	padding-left: 4px;
 	vertical-align: middle;
 	text-decoration: none;
+}
+#ctl00_ctl00_Content_ctl01_dvHtmlContent {
+    padding: 0 0 3%;
+}
+#ctl00_ctl00_Content_ctl02_dvHtmlContent {
+    padding: 0 25% 3%;
+    h2 {
+        font-size: 1.6em;
+        text-align: center;
+    }
+    p {
+        font-size: 1.1em;
+    }
+}
+#ctl00_ctl00_Content_ctl03_dvHtmlContent,
+#ctl00_ctl00_Content_ctl04_dvHtmlContent,
+#ctl00_ctl00_Content_ctl05_dvHtmlContent,
+#ctl00_ctl00_Content_ctl06_dvHtmlContent,
+#ctl00_ctl00_Content_ctl07_dvHtmlContent,
+#ctl00_ctl00_Content_ctl08_dvHtmlContent {
+    vertical-align: middle;
+    h3 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    p {
+        font-size: 1.1em;
+        line-height: 1.4;
+    }
+}
+.selectCol1 {
+vertical-align: top;
+padding: 0;
+text-align: center;
+}
+.searchBox {
+height: auto;
+padding-top: 1em;
+text-align: center;
+}
+.divSelectDept {
+height: auto;
+margin-top: 0;
+overflow: auto;
+text-align:center;
+padding: .5em 0;
+}
+.courseSelect {
+padding-top: .5em;
+}
+#content {
+    font-size: 1em;
+}
+#quickInstruction P {
+    font-size: inherit;
+}
+#ctl00_ctl00_ctl00_Content_Content_Content_lblWelcome {
+    white-space: normal;
+}
+.pager {
+font-size: 1em;;
 }
 
 /* layout */
@@ -408,6 +417,8 @@ img, embed, object, video {
 }
 .div_left_sec {
     width: 20%;
+    display: none;
+    visibility: hidden;
     .div_left_sec {
         width: 100%;
     }
@@ -457,9 +468,16 @@ img, embed, object, video {
 }
 .search_v,
 .div_footer_sec,
-.div_privacy {
+.div_privacy,
+.righthelp,
+.breadCrumbs,
+.merchSearch {
     display: none;
     visibility: hidden;
+}
+td.breadCrumbs {
+    display: inline;
+    visibility: visible;
 }
 #topSearch {
     clear: right;
@@ -467,7 +485,7 @@ img, embed, object, video {
     width: 15em;
     margin: 1em 0 0 0;
     position: relative;
-    #ctl00_ctl00_ctl12_txtSearch {
+    #mySearchField input {
         width: 75% !important;
         position: absolute;
         top: 0;
@@ -475,7 +493,7 @@ img, embed, object, video {
         bottom: 0;
         left: 0;
     }
-    #ctl00_ctl00_ctl12_btnSearch {
+    #mySearchSubmit input {
         width: 25% !important;
         position: absolute;
         top: 0;
@@ -535,6 +553,36 @@ ul.AspNet-Menu li:hover ul ul, ul.AspNet-Menu li:hover ul ul ul, ul.AspNet-Menu 
 	width: 15.4em;
     display: none;
 }
+#ctl00_ctl00_Content_ctl03_dvHtmlContent,
+#ctl00_ctl00_Content_ctl04_dvHtmlContent,
+#ctl00_ctl00_Content_ctl05_dvHtmlContent,
+#ctl00_ctl00_Content_ctl06_dvHtmlContent,
+#ctl00_ctl00_Content_ctl07_dvHtmlContent,
+#ctl00_ctl00_Content_ctl08_dvHtmlContent {
+    /* width: 50%;
+    padding: 3%;
+    float: left;
+    height: 16em; */
+    display: none;
+    visibility: hidden;
+}
+#btnDefaultCss, #lbtnCss, #btnimgCss, #btnBuildCss {
+    display: none;
+}
+.LinkNormal {
+    z-index: 9999;
+    position: absolute;
+}
+.courseSub {
+    width: 47%;
+}
+.tblCourseSelect {
+    height: 350px;
+    padding-bottom: 1em;
+    padding-top: 2em;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /* color */
 a {
@@ -579,6 +627,7 @@ a:active {
 .div_top_sec {
     background: $orange url(http://insitestore3.mbsbooks.com/SiteImages/171-SchoolImages/171-top/171-0071_14_08_MF_9532-2-header-bg.jpg) no-repeat;
     background-size: cover;
+    border-bottom: .75em solid $darkGrey;
 }
 .div_bottom_sec {
     a {
@@ -651,7 +700,7 @@ a:active {
     border-bottom: none !important;
 }
 #topSearch {
-    #ctl00_ctl00_ctl12_btnSearch {
+    #mySearchSubmit input {
         background-color: $yellow;
         border: none;
         color: $orange;
@@ -719,3 +768,67 @@ background-color: red;
 	background-position: center right;
 	background-attachment: scroll;
 }
+#ctl00_ctl00_Content_ctl03_dvHtmlContent {
+    background-color: $mint;
+}
+#ctl00_ctl00_Content_ctl04_dvHtmlContent {
+    background-color: $blue;
+}
+#ctl00_ctl00_Content_ctl05_dvHtmlContent {
+    background-color: $sage;
+}
+#ctl00_ctl00_Content_ctl06_dvHtmlContent {
+    background-color: $mauve;
+}
+#ctl00_ctl00_Content_ctl07_dvHtmlContent {
+    background-color: $ochre;
+}
+#ctl00_ctl00_Content_ctl08_dvHtmlContent {
+    background-color: $orange;
+}
+#ctl00_ctl00_Content_ctl03_dvHtmlContent,
+#ctl00_ctl00_Content_ctl04_dvHtmlContent,
+#ctl00_ctl00_Content_ctl05_dvHtmlContent,
+#ctl00_ctl00_Content_ctl06_dvHtmlContent,
+#ctl00_ctl00_Content_ctl07_dvHtmlContent,
+#ctl00_ctl00_Content_ctl08_dvHtmlContent {
+}
+.homeCourseMaterials {
+    background: $darkGrey url(http://insitestore3.mbsbooks.com/vassarsandbox/SiteImages/171-SchoolImages/171-content/171-0070_14_08_KR_0116.jpg) no-repeat;
+    background-size: cover;
+    height: 31em;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    position: relative;
+    margin: 2em 0;
+    p {
+        background-color: shade($mauve, 60%);
+        padding: 1em;
+    }
+    .button {
+       position: absolute;
+       bottom: 2em;
+       left: 50%;
+       width: 15em;
+       margin-left: -7.5em;
+       border: .15em solid $darkGrey;
+       -webkit-box-shadow: 0 0 1em .3em $darkGrey;
+       box-shadow: 0 0 1em .3em $darkGrey;
+       background-color: $orange;
+
+       a, 
+       a:visited {
+            color: #fff !important;
+            border-bottom: none !important;
+        }
+    }
+    .button:hover {
+        background-color: $darkGrey;
+    }
+    .button:active {
+        background-color: $mauve;
+    }
+}
+

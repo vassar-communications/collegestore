@@ -31,6 +31,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/0070_14_08_KR_0116.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 108116,
+		"inputAbbreviatedPath": "\/assets\/images\/0070_14_08_KR_0116.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/0070_14_08_KR_0116.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/0071_14_08_MF_9532-2-header-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -214,6 +225,26 @@
 		"outputAbbreviatedPath": "\/config.rb",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/design-files\/nav.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/design-files\/nav.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/design-files\/Powerhouse Theater Photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.04758e+06,
+		"inputAbbreviatedPath": "\/design-files\/Powerhouse Theater Photo.jpg",
+		"outputAbbreviatedPath": "\/design-files\/Powerhouse Theater Photo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		}
 	},
 "hooks": [
