@@ -79,49 +79,19 @@ font-size: 12px;
 .TabBody{
 font-size: 12px;
 }
-.button-small.searchcoursebutton{
-background-color: #007272;
-margin-top: -5px;
-}
-.button{
-background-color: #007272;
-}
-.button.subtle{
-background-color: #ffd701;
-color: #007272;
-}
+
 .fontSizeB.lnkRegister{
-color: #007272;
+color: $orange;
 font-weight: bold;
 font-size: 14px;
 }
 .fontSizeB.lnkLostPassword{
-color: #007272;
+color: $orange;
 font-weight: bold;
 font-size: 14px;
 }
 
-/*----------RegisterButton------------*/
-#ctl00_ctl00_Content_Content_Button{
-color: #ffffff;
-background-color: #003768;
-padding-bottom: 5px;
-border: none;
-width: 100px;
-height: 33px;
-font-size: 18px;
-}
 
-/*----------FacultyRegisterButton------------*/
-#ctl00_ctl00_Content_Content_btnAdopt{
-color: #ffffff;
-background-color: #003768;
-padding-bottom: 5px;
-border: none;
-width: 200px;
-height: 33px;
-font-size: 18px;
-}
 
 /* typography */
 html {
@@ -285,7 +255,6 @@ td, b {
     border: 0;
     padding-left: 0;
     margin-top: 0;
-    text-align: center;
 }
 #ctl00_ctl00_Content_Content_CustRegLink,
 #ctl00_ctl00_Content_Content_Hyperlink1,
@@ -583,6 +552,10 @@ ul.AspNet-Menu li:hover ul ul, ul.AspNet-Menu li:hover ul ul ul, ul.AspNet-Menu 
     margin-right: auto;
     margin-left: auto;
 }
+.container {
+    max-width: 53rem;
+    width: 90%;
+}
 
 /* color */
 a {
@@ -625,7 +598,7 @@ a:active {
     }
 }
 .div_top_sec {
-    background: $orange url(http://insitestore3.mbsbooks.com/SiteImages/171-SchoolImages/171-top/171-0071_14_08_MF_9532-2-header-bg.jpg) no-repeat;
+    background: $orange url(/SiteImages/171-SchoolImages/171-top/171-0071_14_08_MF_9532-2-header-bg.jpg) no-repeat;
     background-size: cover;
     border-bottom: .75em solid $darkGrey;
 }
@@ -647,7 +620,7 @@ a:active {
         color: $linkColorActive !important;
         border-bottom: 1px solid $linkColorActive !important;
     }
-    background: $darkGrey url(http://insitestore3.mbsbooks.com/SiteImages/171-SchoolImages/171-bottom/171-0070_14_08_KR_0073-footer-bg.jpg) no-repeat;
+    background: $darkGrey url(/SiteImages/171-SchoolImages/171-bottom/171-0070_14_08_KR_0073-footer-bg.jpg) no-repeat;
     background-size: cover;
 }
 #topSearch {
@@ -794,7 +767,7 @@ background-color: red;
 #ctl00_ctl00_Content_ctl08_dvHtmlContent {
 }
 .homeCourseMaterials {
-    background: $darkGrey url(http://insitestore3.mbsbooks.com/vassarsandbox/SiteImages/171-SchoolImages/171-content/171-0070_14_08_KR_0116.jpg) no-repeat;
+    background: $darkGrey url(/SiteImages/171-SchoolImages/171-content/171-0070_14_08_KR_0116.jpg) no-repeat;
     background-size: cover;
     height: 31em;
     color: white;
@@ -814,6 +787,7 @@ background-color: red;
        width: 15em;
        margin-left: -7.5em;
        border: .15em solid $darkGrey;
+       padding: 0;
        -webkit-box-shadow: 0 0 1em .3em $darkGrey;
        box-shadow: 0 0 1em .3em $darkGrey;
        background-color: $orange;
@@ -824,11 +798,47 @@ background-color: red;
             border-bottom: none !important;
         }
     }
-    .button:hover {
-        background-color: $darkGrey;
-    }
-    .button:active {
-        background-color: $mauve;
+    .homeCourseMaterials--link {
+        display: block;
+        padding: 0.7em 1.5em;
     }
 }
-
+.button {
+    background-color: $orange;
+}
+.button.subtle {
+    background-color: $yellow;
+    color: $orange;
+}
+.button.subtle:hover,
+.button:hover {
+    background-color: $darkGrey;
+}
+.button.subtle:active,
+.button:active {
+    background-color: $mauve;
+}
+.button-small.searchcoursebutton{
+    background-color: $orange;
+    margin-top: -5px;
+}
+/*----------RegisterButton------------*/
+#ctl00_ctl00_Content_Content_Button{
+color: #ffffff;
+background-color: $orange;
+padding-bottom: 5px;
+border: none;
+width: 100px;
+height: 33px;
+font-size: 18px;
+}
+/*----------FacultyRegisterButton------------*/
+#ctl00_ctl00_Content_Content_btnAdopt{
+color: #ffffff;
+background-color: $orange;
+padding-bottom: 5px;
+border: none;
+width: 200px;
+height: 33px;
+font-size: 18px;
+}
