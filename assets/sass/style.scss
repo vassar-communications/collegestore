@@ -108,8 +108,12 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 1.802em;
 }
-h2 {
+h2,
+.searchcoursetext,
+h3.step-head {
     font-size: 1.266em;
+    padding-left: 0;
+    padding-top: 0;
 }
 h3 {
     font-size: 1em;
@@ -244,11 +248,12 @@ td, b {
 }
 .errors,
 .help {
-    @include v-pixel-fallback ('line-height', 1rem);
+    font-size: 14px !important;
+    font-size: .8rem !important;
 }
 .LocationBar {
 	background-color: transparent;
-    @include v-pixel-fallback ('font-size', 1.5rem);
+    @include v-pixel-fallback ('font-size', 1.802rem);
 	font-style: normal;
 	font-weight: $fontWeightBold;
 	color: $darkGrey;
@@ -345,6 +350,17 @@ padding-top: .5em;
 }
 .pager {
 font-size: 1em;;
+}
+.button-small.searchcoursebutton {
+    margin-top: -8px;
+    @include v-pixel-fallback ('font-size', .9rem);
+    padding: .3em;
+    border-radius: 0;
+    margin-left: 0;
+}
+.pricingDisclaimer,
+.noBook_note {
+    @include v-pixel-fallback ('font-size', 1rem);
 }
 
 /* layout */
@@ -803,7 +819,8 @@ background-color: red;
         padding: 0.7em 1.5em;
     }
 }
-.button {
+.button,
+.button-small.searchcoursebutton {
     background-color: $orange;
 }
 .button.subtle {
@@ -811,16 +828,14 @@ background-color: red;
     color: $orange;
 }
 .button.subtle:hover,
-.button:hover {
+.button:hover,
+.button-small.searchcoursebutton:hover{
     background-color: $darkGrey;
 }
 .button.subtle:active,
-.button:active {
+.button:active,
+.button-small.searchcoursebutton:active {
     background-color: $mauve;
-}
-.button-small.searchcoursebutton{
-    background-color: $orange;
-    margin-top: -5px;
 }
 /*----------RegisterButton------------*/
 #ctl00_ctl00_Content_Content_Button{
@@ -841,4 +856,34 @@ border: none;
 width: 200px;
 height: 33px;
 font-size: 18px;
+}
+.searchcoursetext,
+h3.step-head,
+.pricingDisclaimer,
+.noBook_note {
+    color: $darkGrey;
+}
+.noBook_note {
+    border: 1px solid $mauve;
+}
+.errors,
+.help {
+    color: $orange;
+}
+.cart {
+    border: none;
+    th,
+    td {
+        border-bottom: none;
+        color: tint($darkGrey, 20%);
+    }
+    th {
+        background-color: transparent;
+    }
+    tr:nth-of-type(odd) {
+        background-color: tint($mauve, 70%);
+    }
+}
+.term_bar {
+    background-image: none;
 }
