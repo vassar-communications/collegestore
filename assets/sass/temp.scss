@@ -1,0 +1,111 @@
+@import "_mixins";
+@import "compass";
+
+$sans-serif: Verdana, Arial, Helvetica, sans-serif;
+$serif: serif;
+$fontWeightNormal: normal;
+$fontWeightMedium: 600;
+$fontWeightBold: bold;
+
+$orange: #f04e46;
+$medGrey: #9A9A9A;
+$white: #fff;
+$mauve: #c4b9ce;
+$yellow: #ffd75e;
+$darkGrey: shade(#c4b9ce, 65%);
+$mint: #c2e3d1;
+$blue: #8ba9d8;
+$sage: #e2ead3;
+$ochre: #e0dd7e;
+$linkColor: $orange;
+$linkColorVisited: $medGrey;
+$linkColorHoverFocus: $mauve;
+$linkColorActive: $yellow;
+
+.ButtonsBG {
+    background-color: transparent;
+    border-bottom: 2px solid tint($mauve, 70%);
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+}
+.MagicZoom:link {
+    border-bottom: none ;
+}
+.Section_Detail {
+    margin-left: 1em;
+}
+.div_left_sec {
+    display: block;
+    visibility: visible;
+    padding: .4em 0 0;
+}
+td.div_content_sec {
+    padding: 0 0 0 3%;
+    width: 80%;
+}
+.myMTable {
+    width: 100%;
+}
+.mSKU {
+    display: block;
+    margin-top: .3em;
+}
+.tableBorder th {
+    background-color: tint($mauve, 70%);
+    color: $darkGrey;
+}
+.tableBorder th, .tableBorder td {
+    border-bottom: 1px solid tint($mauve, 70%);
+}
+.tbl_left_cont_right {
+    padding: 3%;
+}
+
+/* landing pages */
+.ldngPgLst {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.ldngPgeLstItm {
+    display: inline;
+    float: left;
+    text-align: center;
+    width: 33%;
+}
+.ldngPgeLstItm__link {
+    width: 100%;
+    display: inline-block;
+    padding: 5% 5% 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-size: 1.25em;
+}
+.ldngPgeLstItm__link:hover {
+    -webkit-filter: brightness(80%);
+    filter: brightness(80%);
+    background-color: rgba(0, 0, 0, .2);
+    color: $darkGrey !important;
+}
+.ldngPgeLstItm__link:link {
+    border-bottom: none !important;
+}
+.ldngPgeLstItm__link img {
+    max-height: 23em;
+    display: block;
+    margin: 0 auto 1em;
+}
+.div_content_sec h1 {
+    margin-bottom: 1em;
+}
+#topSearch {
+    display: block;
+    visibility: visible;
+}
+#miniNav {
+    li:after {
+        display: inline;
+    }
+}

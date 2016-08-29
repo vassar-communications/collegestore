@@ -20,6 +20,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/css\/temp.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/temp.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/assets\/images\/0070_14_08_KR_0073-footer-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -97,6 +106,248 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/lndgPg-264-425838-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43758,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-425838-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-425838-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-425929-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22017,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-425929-2.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-425929-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-425932-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29179,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-425932-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-425932-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-425933-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41097,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-425933-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-425933-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-425996-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43442,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-425996-2.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-425996-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-427747-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42657,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-427747-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-427747-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-427794-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28360,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-427794-2.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-427794-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-427800-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33724,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-427800-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-427800-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-428432-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29214,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-428432-2.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-428432-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-428494-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26407,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-428494-3.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-428494-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-430383-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30428,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-430383-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-430383-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-434299-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72653,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-434299-2.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-434299-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-434352-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28583,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-434352-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-434352-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-434353-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30448,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-434353-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-434353-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-434392-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53366,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-434392-2.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-434392-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-435043-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47984,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-435043-2.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-435043-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-435110-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28534,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-435110-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-435110-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-436569-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12817,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-436569-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-436569-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-436581-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30979,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-436581-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-436581-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-437492-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13142,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-437492-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-437492-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/lndgPg-264-438152-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19066,
+		"inputAbbreviatedPath": "\/assets\/images\/lndgPg-264-438152-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/lndgPg-264-438152-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/pic26362.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91318,
+		"inputAbbreviatedPath": "\/assets\/images\/pic26362.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/pic26362.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/slideshow\/0070_14_08_KR_0073.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -163,6 +414,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/thumb-0070_14_08_KR_0073.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89144,
+		"inputAbbreviatedPath": "\/assets\/images\/thumb-0070_14_08_KR_0073.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/thumb-0070_14_08_KR_0073.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/thumb-pic26362.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60474,
+		"inputAbbreviatedPath": "\/assets\/images\/thumb-pic26362.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/thumb-pic26362.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/js\/171-galleria-1.3.5.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -180,6 +453,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/171-galleria.azur.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/min\/171-galleria.azur.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/min\/mutation-observer-poly-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/min\/mutation-observer-poly-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/mutation-observer-poly-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/mutation-observer-poly.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/mutation-observer-poly.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/mutation-observer-poly-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -217,12 +512,301 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
+	"\/assets\/sass\/temp.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/temp.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/temp.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
 	"\/config.rb": {
 		"fileType": 131072,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/config.rb",
 		"outputAbbreviatedPath": "\/config.rb",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/design-files\/apparel\/264-425838-1.PNG": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 410436,
+		"inputAbbreviatedPath": "\/design-files\/apparel\/264-425838-1.PNG",
+		"outputAbbreviatedPath": "\/design-files\/apparel\/264-425838-1.PNG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/apparel\/264-425929-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87109,
+		"inputAbbreviatedPath": "\/design-files\/apparel\/264-425929-2.jpg",
+		"outputAbbreviatedPath": "\/design-files\/apparel\/264-425929-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/apparel\/264-425932-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 286853,
+		"inputAbbreviatedPath": "\/design-files\/apparel\/264-425932-1.png",
+		"outputAbbreviatedPath": "\/design-files\/apparel\/264-425932-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/apparel\/264-425933-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 399973,
+		"inputAbbreviatedPath": "\/design-files\/apparel\/264-425933-1.png",
+		"outputAbbreviatedPath": "\/design-files\/apparel\/264-425933-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/apparel\/264-425936-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 337923,
+		"inputAbbreviatedPath": "\/design-files\/apparel\/264-425936-1.png",
+		"outputAbbreviatedPath": "\/design-files\/apparel\/264-425936-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/apparel\/264-425996-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69993,
+		"inputAbbreviatedPath": "\/design-files\/apparel\/264-425996-2.jpg",
+		"outputAbbreviatedPath": "\/design-files\/apparel\/264-425996-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/apparel\/264-430383-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62375,
+		"inputAbbreviatedPath": "\/design-files\/apparel\/264-430383-1.jpg",
+		"outputAbbreviatedPath": "\/design-files\/apparel\/264-430383-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/apparel\/264-434352-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46099,
+		"inputAbbreviatedPath": "\/design-files\/apparel\/264-434352-1.jpg",
+		"outputAbbreviatedPath": "\/design-files\/apparel\/264-434352-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/apparel\/264-434353-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49411,
+		"inputAbbreviatedPath": "\/design-files\/apparel\/264-434353-1.jpg",
+		"outputAbbreviatedPath": "\/design-files\/apparel\/264-434353-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/apparel\/264-434392-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94450,
+		"inputAbbreviatedPath": "\/design-files\/apparel\/264-434392-2.jpg",
+		"outputAbbreviatedPath": "\/design-files\/apparel\/264-434392-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/apparel\/264-435043-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68753,
+		"inputAbbreviatedPath": "\/design-files\/apparel\/264-435043-2.jpg",
+		"outputAbbreviatedPath": "\/design-files\/apparel\/264-435043-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/apparel\/264-435110-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 302831,
+		"inputAbbreviatedPath": "\/design-files\/apparel\/264-435110-1.png",
+		"outputAbbreviatedPath": "\/design-files\/apparel\/264-435110-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/apparel\/264-436569-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23728,
+		"inputAbbreviatedPath": "\/design-files\/apparel\/264-436569-1.jpg",
+		"outputAbbreviatedPath": "\/design-files\/apparel\/264-436569-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/apparel\/264-436581-1.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88927,
+		"inputAbbreviatedPath": "\/design-files\/apparel\/264-436581-1.JPG",
+		"outputAbbreviatedPath": "\/design-files\/apparel\/264-436581-1.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/apparel\/264-437492-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30748,
+		"inputAbbreviatedPath": "\/design-files\/apparel\/264-437492-1.jpg",
+		"outputAbbreviatedPath": "\/design-files\/apparel\/264-437492-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/apparel\/264-438152-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51778,
+		"inputAbbreviatedPath": "\/design-files\/apparel\/264-438152-1.jpg",
+		"outputAbbreviatedPath": "\/design-files\/apparel\/264-438152-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/collegestore-apparel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 736547,
+		"inputAbbreviatedPath": "\/design-files\/collegestore-apparel.jpg",
+		"outputAbbreviatedPath": "\/design-files\/collegestore-apparel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/collegestore-gifts.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 607412,
+		"inputAbbreviatedPath": "\/design-files\/collegestore-gifts.jpg",
+		"outputAbbreviatedPath": "\/design-files\/collegestore-gifts.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/collegestore-womens-apparel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 666605,
+		"inputAbbreviatedPath": "\/design-files\/collegestore-womens-apparel.jpg",
+		"outputAbbreviatedPath": "\/design-files\/collegestore-womens-apparel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/gifts\/264-427747-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47641,
+		"inputAbbreviatedPath": "\/design-files\/gifts\/264-427747-1.jpg",
+		"outputAbbreviatedPath": "\/design-files\/gifts\/264-427747-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/gifts\/264-427794-2.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43086,
+		"inputAbbreviatedPath": "\/design-files\/gifts\/264-427794-2.JPG",
+		"outputAbbreviatedPath": "\/design-files\/gifts\/264-427794-2.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/gifts\/264-427800-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 255808,
+		"inputAbbreviatedPath": "\/design-files\/gifts\/264-427800-1.png",
+		"outputAbbreviatedPath": "\/design-files\/gifts\/264-427800-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/gifts\/264-428432-2.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44689,
+		"inputAbbreviatedPath": "\/design-files\/gifts\/264-428432-2.JPG",
+		"outputAbbreviatedPath": "\/design-files\/gifts\/264-428432-2.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/gifts\/264-428494-3.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40489,
+		"inputAbbreviatedPath": "\/design-files\/gifts\/264-428494-3.JPG",
+		"outputAbbreviatedPath": "\/design-files\/gifts\/264-428494-3.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/design-files\/landing-page.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/design-files\/landing-page.html",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -245,6 +829,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/design-files\/supplies\/264-427686-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53659,
+		"inputAbbreviatedPath": "\/design-files\/supplies\/264-427686-1.jpg",
+		"outputAbbreviatedPath": "\/design-files\/supplies\/264-427686-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		}
 	},
 "hooks": [
@@ -255,7 +850,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "collegestore",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "compass_brown"
 	},
 "projectSettings": {
