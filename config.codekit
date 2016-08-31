@@ -830,6 +830,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/design-files\/pre-live-style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/design-files\/pre-live-style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/design-files\/supplies\/264-427686-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

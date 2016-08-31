@@ -424,7 +424,7 @@ img, embed, object, video {
     }
 }
 td.div_content_sec {
-    padding: 0 0 0 3%;
+    padding: 3%;
     width: 80%;
 }
 .div_left_sec,
@@ -490,6 +490,7 @@ td.breadCrumbs {
         right: auto;
         bottom: 0;
         left: 0;
+        height: 100%;
     }
     #mySearchSubmit input {
         width: 25% !important;
@@ -498,7 +499,6 @@ td.breadCrumbs {
         right: 0;
         bottom: 0;
         left: auto;
-        height: 100%;
     }
 }
 #socialNav {
@@ -518,7 +518,7 @@ td.breadCrumbs {
 .tbl_left_cont_right {
     width: 100%;
     margin: 0;
-    padding: 3%;
+    padding: 0;
 }
 /* horizontal nav */
 #navHorizontal {
@@ -552,7 +552,6 @@ ul.AspNet-Menu li:hover ul ul, ul.AspNet-Menu li:hover ul ul ul, ul.AspNet-Menu 
 	width: 15.4em;
     display: none;
 }
-#ctl00_ctl00_Content_ctl03_dvHtmlContent,
 #ctl00_ctl00_Content_ctl04_dvHtmlContent,
 #ctl00_ctl00_Content_ctl05_dvHtmlContent,
 #ctl00_ctl00_Content_ctl06_dvHtmlContent,
@@ -677,7 +676,7 @@ a:active {
 .div_top_sec {
     background: $orange url(/SiteImages/171-SchoolImages/171-top/171-0071_14_08_MF_9532-2-header-bg.jpg) no-repeat;
     background-size: cover;
-    border-bottom: .75em solid $darkGrey;
+    /* border-bottom: .75em solid $darkGrey; */
 }
 .div_bottom_sec {
     a {
@@ -803,6 +802,9 @@ background-color: red;
 .ButtonsBG {
     background-color: transparent;
     border-bottom: 2px solid tint($mauve, 70%);
+    border-left: none;
+    border-right: none;
+    border-top: none;
     margin-bottom: 2em;
     padding-bottom: 2em;
 }
